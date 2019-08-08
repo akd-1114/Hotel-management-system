@@ -1,0 +1,440 @@
+.thumb-desc {
+    margin-bottom: 10;
+    margin-top: 10px;
+    font-size: 15px;
+    color: #818181;
+    line-height: 1.5em;
+  }
+  .thumb-title {
+    margin: 20;
+    padding-top:10px;
+    line-height: 1.5em;
+  }
+  .article img {
+    padding:1px;
+    border:1px solid #021a40;
+    background-color:#781263  ;
+ }
+ .article img :hover{
+    width: 600px;
+    height:700px;
+ }
+ .booking-item-details, .booking-item-header {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    line-height:1.6em;
+  }
+   .booking-item-header-price {
+    font-size: 19px;
+    text-align: right;
+    line-height: 1em;
+  }
+  .booking-item {
+    /*cursor: pointer;*/
+    display: block;
+    position: relative;
+    padding: 20px;
+    border: 1px solid #e6e6e6;
+    color: #737373;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -o-transition: 0.2s;
+    -ms-transition: 0.2s;
+    transition: 0.2s;
+  }
+  .booking-item .one{
+      color:red;
+      padding-top:15px;
+  }
+  .booking-item:hover,
+  .booking-item.active{
+    color: #737373;
+    border: 1px solid #FF3334;
+    -webkit-box-shadow: 0 2px 1px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 1px rgba(0,0,0,0.2);
+  }
+  .standard-non-ac-room-list-item{
+      list-style-type:none;
+      padding:10px;
+}
+
+  
+  .booking-item-feature-title{
+      padding:10px;
+      font-size:19px;
+  }
+
+  .lh1em{
+      color:#28BD9E;
+  }
+.text-color{
+    color:#6E936A;
+    text-decoration:underline
+}
+.border-right {
+    border-right: 2px solid rgb(50, 184, 132);
+    padding:0px 20px;
+}
+.form-group .form-control {
+    padding-left: 22px;
+  }
+  #hotel-info{
+    /*margin-top: -40px;*/
+    background-color: rgb(31, 28, 28);
+    color: #fff;
+    z-index: 5;
+    overflow: auto;
+    position: relative;
+  }
+  /*login page*/
+  .admin-register{
+    padding:120px 0;
+    background-position: 50% 50%;
+    background-image: url('images/123-1239012_images-for-animated-christmas-star-gif-christmas-star.gif');
+    width:100%;
+  }
+
+  .login-info{
+    padding:120px 0;
+    background-position: 50% 50%;
+    background-color:#781263;
+    width:100%;
+  }
+  .login-info .one{
+    margin:30px;
+    border-radius: 10px;
+    color:black;
+    font-weight: 700;
+  }
+  
+  
+  .login-wrap{
+    border-radius: 35px;
+    background-image: linear-gradient(red, yellow, green,orange,blue);
+    background-color: #cccccc;
+  }
+
+  .login-wrap2{
+    border-radius: 35px;
+    background-image:url('images/photo-1524654458049-e36be0721fa2.jpg');
+    background-color: #cccccc;
+  }
+
+
+.signup-form{
+  width:400px;
+  margin:0 auto;
+  padding-top:30px;
+}
+.signup-form input, .signup-form textarea{
+  border-radius:5px;
+  width:90%;
+  height:40px;
+  padding:0px 5%;
+  margin-bottom:8px;
+  border:1px solid #6E936A;
+  background-color: #e6e6e6;
+  font-family:arial;
+  font-size:16px;
+  color:#111;
+  line-height:40px;
+}
+.signup-form button{
+  display:block;
+  width:30%;
+  height:40px;
+  margin:0 auto;
+  margin-bottom:4px;
+  border:none;
+  background-color: #222;
+  font-family:arial;
+  font-size:16px;
+  color:#fff;
+  cursor:pointer;
+  margin-top:10px;
+}
+.signup-form button:hover{
+  background-color: #111;
+}
+.signup-form1 button{
+  display:block;
+  width:30%;
+  height:40px;
+  margin:0 auto;
+  border:none;
+  background-color: rgb(243, 231, 231);
+  font-family:arial;
+  font-size:16px;
+  color:rgb(37, 39, 39);
+  cursor:pointer;
+  margin-top:-25px;
+  
+}
+#flip1, #flip2 {
+  padding: 5px;
+  text-align: center;
+  background-color:#0f9ab3;
+  border:1px solid  #c3c3c3;
+  cursor:pointer;
+}
+
+#panel1,#panel2{
+  padding: 10px;
+  display: none;
+}
+/*adminpage*/
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+.sm-menu{
+  background-color:rgb(174, 180, 182);
+  color:rgb(26, 19, 20);
+}
+.admin-page{
+  padding:80px;
+  background-color:#89aa54;
+}
+.admin-page h1{
+  text-decoration:underline;
+  color:rgb(150, 23, 30);
+}
+.admin-page .jumbotron{
+  background-image: url('images/unnamed.jpg');
+}
+/*reser password*/
+.reset-pwd{
+  padding:80px;
+  background-color:#c3c3c3;
+}
+.reset-pwd{
+  text-decoration:underline;
+}
+.error{
+  color:red;
+}
+/*Book room*/
+.check-availability{
+padding:150px;
+background-image: url('images/4-star-hotels-dubai-magnificent-yet-economic-12272.jpg');
+background-size: cover;
+background-attachment: fixed;
+
+}
+.check-availability .jumbotron{
+  background-image: url('images/Four-seasons-Abu-Dhabi.jpeg');
+  background-size: cover;
+  }
+  .check-availability .jumbotron h1{
+    display: inline-block;
+    text-decoration:underline;
+    padding-bottom:30px;
+  }
+  .check-availability .jumbotron h4{
+    display: inline-block;
+    text-decoration:underline;
+  
+  }
+  .check-availability .jumbotron form{
+  margin:20px auto;
+  }
+  .check-availability .jumbotron form label{
+    font-weight: bold;
+    font-size:20px;
+    color:#0b0c05;
+  }
+ .check-availability .jumbotron form input{
+  border-radius:5px;
+  height:40px;
+  padding:0px 5%;
+  margin-bottom:18px;
+  border:1px solid #6E936A;
+  background-color: #e6e6e6;
+  font-family:arial;
+  font-size:16px;
+  color:#111;
+  line-height:30px;
+  }
+  .check-availability .jumbotron form select{
+    border-radius:5px;
+  height:40px;
+  padding:0px 5%;
+  margin-bottom:18px;
+  border:1px solid #6E936A;
+  background-color: #e6e6e6;
+  font-family:arial;
+  font-size:16px;
+  color:#111;
+  line-height:30px;
+  }
+  #flip3{
+    color:white;
+    background-color: rgb(38, 59, 65);
+    width:20%;
+    height:35px;
+    text-decoration:none;
+    cursor:pointer;
+  }
+  #panel3{
+  padding: 10px;
+  display: none;
+  background-color: darkcyan;
+}
+#panel3 .card{
+  background-color:#477272;
+}
+#panel3 .card .card-header{
+  text-decoration: underline;
+}
+#panel3 .card .card-body img{
+padding:5px;
+}
+#panel3 .card .card-body h5{
+  padding-top:8px;
+  text-decoration:underline;
+  }
+  #panel3 .card .card-body button{
+    padding-bottom:8px;
+    }
+#panel3 .card .card-body .seperator{
+  border:1px solid rgb(58, 65, 66);
+  background-color:rgb(58, 65, 66);
+  margin:5px;
+  }
+/*booking*/
+.booking{
+  padding-top:56px;
+}
+.booking .one{
+  background-color:#89aa54;
+  text-decoration: underline;
+}
+.booking1{
+ padding:40px;
+ background-color:#6E936A;
+}
+.booking1 .one{
+  padding-top:40px;
+  text-decoration: underline;
+}
+.booking1 form{
+  margin:0 auto;
+  padding-top:20px;
+ }
+ .booking1 form label{
+   font-size:22px;
+  font-weight:bold;
+ }
+ .booking1 form input,.booking1 form textarea{
+  border-radius:5px;
+  width:45%;
+  height:40px;
+  padding:0px 5%;
+  margin-bottom:8px;
+  border:1px solid #6E936A;
+  background-color: #e6e6e6;
+  font-family:arial;
+  font-size:16px;
+  color:#111;
+  line-height:40px;
+ }
+ .booking1 form button,.booking1 form a{
+   margin-top:30px;
+   width:140px;
+ }
+/*payment*/
+ .cc-img {
+  margin: 0 auto;
+}
+#cnt {
+padding-top: 75px;
+padding-bottom:50px;
+background-color:#51c49d;
+}
+#cnt form{
+  margin:0 auto;
+  padding-top:30px;
+}
+#cnt form label{
+  font-size:17px;
+  padding-top:10px;
+font-weight:bold;
+}
+#cnt form input{
+  border-radius:5px;
+  width:95%;
+  height:40px;
+  padding:0px 5%;
+  margin-bottom:18px;
+  border:1px solid #6E936A;
+  background-color: #e6e6e6;
+  font-family:arial;
+  font-size:16px;
+  color:#111;
+  line-height:30px;
+  }
+  
+  #cnt form select{
+    border-radius:5px;
+    height:40px;
+    padding:0px 5%;
+    margin-bottom:18px;
+    border:1px solid #6E936A;
+    background-color: #e6e6e6;
+    font-family:arial;
+    font-size:16px;
+    color:#111;
+    line-height:30px;
+  }
+#cnt .card{
+  padding-top: 15px;
+  background-color:#e0af54;
+  }
+#cnt .card .card-body{
+  padding-top: 15px;
+  background-color:#e0af54;
+  }
+.paymentsuccess{
+  padding-top:75px;
+  background-color:#737373;
+}
+.paymentsuccess h2{
+  color:#24c215;
+  margin-bottom:35px;
+  text-decoration:underline;
+}
+.paymentsuccess button{
+  margin-bottom:35px;
+}
+.paymentsuccess table{
+  background-color:#1d7a14;
+  text-align:center;
+}
+/*my booking*/
+.my-booking{
+  padding-top:55px;
+  background-color:#737373;
+}
+.my-booking .one{
+  margin-bottom:25px;
+  padding:10px 0px;
+  background-color:#2fdd55;
+}
+/*user Report*/
+.user_report{
+  padding-top:55px;
+  background-color:#a9b376;
+}
+.user_report .one{
+  margin-bottom:25px;
+  padding:10px 0px;
+  background-color:#527459;
+}
+
+/*room edit*/
+.roomedit {
+  padding:100px 0;
+  background-color:#527459;
+}
+
+
+
